@@ -133,3 +133,7 @@ button{
     color: white;
     margin-bottom: 5px;
 }
+.equal button{
+    background-color: orange;
+    border: orange solid 3px;
+}

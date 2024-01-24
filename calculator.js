@@ -183,11 +183,19 @@ buttons[20].addEventListener('click', ()=>{
     console.log('nic');
 });
 buttons[21].addEventListener('click', ()=>{
-    console.log('0');
-    memory.push('0');
-    number1 = memory.join('')
-    xd = parseInt(number1);
-    wynik.innerHTML = xd;
+    if (add == false && deduct == false && multiply == false && divide == false) {
+        console.log('0');
+        memory.push('0');
+        number1 = memory.join('')
+        xd = parseInt(number1);
+        wynik.innerHTML = xd;
+    }
+    else{
+        memory2.push('0');
+        number2 = memory2.join('')
+        xd2 = parseInt(number2);
+        wynik.innerHTML = xd2; 
+    }
 });
 buttons[22].addEventListener('click', ()=>{
     console.log('.');
