@@ -19,19 +19,52 @@
         </div>
         <div class="mainscreen" id="mainscreen">
             <h6 class="sclock" id="sclock">21:37</h6>
-            <div class="icons">
-                <button class="calculator"><img src="img/google_calculator.svg"></button>
+            <div id="icons" class="icons">
+                <button ><img src="img/google_calculator.svg"></button>
                 <button class="gallery"><img src="img/system_gallery.svg"></button>
                 <button class="settings"><img src="img/system_settings_2.svg"></button>
             </div>
-            <div class="">
-
-            </div>
-            <button class="homebutton" id="homebutton"><img src="img/home.png" id="unlockbutton"></button>
+            
         </div>
-   
+        <div id="calculator" class="calculator">
+            <div>
+                <p id="wynik" class="wynik"></p>
+            </div>
+            <div class="row">
+                <button class="ac">AC</button>
+                <button class="pm">±</button>
+                <button class="percent">%</button>
+                <button class="division">÷</button>
+            </div>
+            <div class="row">
+                <button class="number-7">7</button>
+                <button class="number-8">8</button>
+                <button class="number-9">9</button>
+                <button class="multiplication">×</button>
+            </div>
+            <div class="row">
+                <button class="number-4">4</button>
+                <button class="number-5">5</button>
+                <button class="number-6">6</button>
+                <button class="subtraction">−</button>
+            </div>
+            <div class="row">
+                <button class="number-1">1</button>
+                <button class="number-2">2</button>
+                <button class="number-3">3</button>
+                <button class="addition">+</button>
+            </div>
+            <div class="row">
+                <button class="empty">1</button>
+                <button class="number-0">0</button>
+                <button class="decimal">.</button>
+                <button class="equal">=</button>
+            </div>    
+        </div>
+        <button class="homebutton" id="homebutton"><img src="img/home.png" id="unlockbutton"></button>
     </main>
     <section></section>
     <script src="script.js"></script>
+    <script src="calculator.js"></script>
 </body>
 </html>
