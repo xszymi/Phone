@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    flex: 1;
+    height: 100%;
+}
+main {
+    position: relative;
+    height: 100%;
+
+    background-size: cover;
+    background-position: center;
+    height: 508px;
+    width: 244px;
+    
+}
+.border{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.background1 img{
+    border-radius: 20px;
+}
+.background2 img{
+    border-radius: 20px;
+}
+.unlockbutton{
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.clock{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 4%;
+    font-size: 3em;
+    color: white;
+}
+.sclock{
+    position: absolute;
+    top: -2%;
+    left: 10%;
+    color: white;
+}
+.date{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 14%;
+    font-size: 1em;
+    color: white;
+}
+.mainscreen{
+    visibility: hidden;
+}
+
+.homebutton{
+    width: 15px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icons img{
+    width: 60px;
+}
+.icons{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
